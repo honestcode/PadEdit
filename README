@@ -1,0 +1,48 @@
+#Release notes:
+
+##1.3
+
+Security and general code quality improvements with amazing help from John Forte, Craig Smith, and Brett Terpstra.
+
+Improvements to automatic quote, bracket, parentheses, and brace completion.
+For security reasons, the minimum PHP version requirement was raised to 5.0.
+
+##1.2
+
+File pane is now fully collapsible. Just drag the resize handle all the way to the left. (Thanks, James!)
+
+Fixed a bug where the PadEdit folder was sometimes visible in the file list.
+
+Fixed some error messages w/r/t permissions.
+
+Fixed a bug where a new folder or new file would be put in the wrong folder.
+
+##1.1
+
+Increases minimum permissions requirements to octal 755 (instead of 644).
+
+##1.0
+
+Initial release.
+
+
+#Known issues:
+
+Coda clips importing is still a little funky.
+File permissions are more ... permissive ... than we'd prefer.
+
+Text highlighting in Webkit-based desktop browsers is weird. Like this.
+
+#To do:
+
+Gesture-based shortcuts.
+
+Snipplr.com integration.
+
+Syntax coloring.
+
+WYSIWYG editing.
+
+Firefox support (probably doable around the time it supports SVG files as background images).
+
+Opt-in (instead of opt-out, via %protect%) file editing.
