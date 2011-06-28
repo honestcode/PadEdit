@@ -17,6 +17,8 @@ Fixed some error messages w/r/t permissions.
 
 Fixed a bug where a new folder or new file would be put in the wrong folder.
 
+On 2011 June 28, this version was moved into to GitHub.
+
 ##1.1
 
 Increases minimum permissions requirements to octal 755 (instead of 644).
