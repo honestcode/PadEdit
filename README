@@ -7,6 +7,8 @@ Security and general code quality improvements with amazing help from John Forte
 Improvements to automatic quote, bracket, parentheses, and brace completion.
 For security reasons, the minimum PHP version requirement was raised to 5.0.
 
+On 2011 June 28, this version was moved into to GitHub.
+
 ##1.2
 
 File pane is now fully collapsible. Just drag the resize handle all the way to the left. (Thanks, James!)
@@ -16,8 +18,6 @@ Fixed a bug where the PadEdit folder was sometimes visible in the file list.
 Fixed some error messages w/r/t permissions.
 
 Fixed a bug where a new folder or new file would be put in the wrong folder.
-
-On 2011 June 28, this version was moved into to GitHub.
 
 ##1.1
 
