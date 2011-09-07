@@ -39,11 +39,11 @@ switch ($action) {
 		<div style="width: 350px; margin: 30px auto;">
 			<form id="login" action="index.php?setpassword=true" method="post">
 				<div align="center"><img src="system/images/padedit_logo.png" alt="PadEdit" width="370" height="166" /></div>
-				<?php if (isset($_GET['fail'])) { ?>
+				<?php if (isset($_GET['perm'])) { ?>
 					<div class="error">Oops! Make sure both passwords match.</div>
 				<?php } ?>
 				
-				<?php if (isset($_GET['perm'])) { ?>
+				<?php if (isset($_GET['fail'])) { ?>
 					<div class="error">Before setting a password, make sure permissions for the PadEdit's parent folder is at least octal 755.</div>
 				<?php } ?>
 				<p align="center" style="margin-bottom: 20px;">Howdy! Choose a password, and you're all ready to go.</p>
